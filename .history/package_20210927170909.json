@@ -1,0 +1,74 @@
+{
+  "name": "asian_organo_reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.4",
+    "bootstrap": "^4.6.0",
+    "formik": "^2.2.9",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "moment": "^2.29.1",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2",
+    "react-datepicker": "^4.2.1",
+    "react-dom": "^17.0.2",
+<<<<<<< HEAD
+    "react-icons": "^4.2.0",
+=======
+    "react-dropzone": "^11.4.1",
+>>>>>>> c6374142b63e690a0db5fadb975d629714b1b0e8
+    "react-loader-spinner": "^4.0.0",
+    "react-places-autocomplete": "^7.3.0",
+    "react-query": "^3.23.1",
+    "react-responsive": "^9.0.0-beta.4",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-star-ratings": "^2.3.0",
+    "react-stepper-horizontal": "^1.0.11",
+    "react-time-picker": "^4.4.1",
+    "react-toastify": "^8.0.2",
+    "react-use": "^17.3.1",
+    "reactstrap": "^8.10.0",
+    "web-vitals": "^1.1.2"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "windows:start": "set PORT=3001 && react-scripts start",
+    "build": "CI=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

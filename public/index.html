@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Bilty" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <title>Bilty</title>
+
+
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/series-label.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+  <script>
+    const chart = Highcharts.chart('container', {
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ' '
+      },
+      xAxis: {
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+
+      },
+      yAxis: {
+        title: {
+          text: ' '
+        }
+      },
+      plotOptions: {
+        series: {
+          pointWidth: 55
+        }
+      },
+      series: [{
+        type: 'column',
+        colorByPoint: true,
+        data: [450000, 300000, 210000, 320000, 300000, 260000, 400000, 300000, 300000, 230000, 100000, 300000],
+        colors: ['#FB8E00'],
+
+        showInLegend: false
+      }]
+
+    });
+
+    document.getElementById('plain').addEventListener('click', () => {
+      chart.update({
+        chart: {
+          inverted: false,
+          polar: false
+        },
+        subtitle: {
+          text: ''
+        }
+      });
+    });
+
+    document.getElementById('inverted').addEventListener('click', () => {
+      chart.update({
+        chart: {
+          inverted: true,
+          polar: false
+        },
+        subtitle: {
+          text: ' '
+        }
+      });
+    });
+
+    document.getElementById('polar').addEventListener('click', () => {
+      chart.update({
+        chart: {
+          inverted: false,
+          polar: true
+        },
+        subtitle: {
+          text: ' '
+        }
+      });
+    });</script>
+
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7pmqRpxgTvQVjMtDR-gSOuj7x5esUzUs&libraries=places,geometry"></script>
+</body>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+.max-screen {
+  max-width: 500px;
+  margin: auto;
+}
+
+.img-logo {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.google-btn {
+  border-radius: 42%;
+  width: 62px;
+  height: 45px;
+  background: red;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #cdcdcd;
+  outline: none;
+  width: 89%;
+  margin: auto auto;
+}
+
+input[type='password'] {
+  margin: 20px auto;
+}
+
+.fb-btn {
+  border-radius: 42%;
+  width: 62px;
+  height: 45px;
+  background: #33416a;
+  color: white;
+  border: none;
+}
+
+.upper-section {
+  margin: 60px 30px 30px 30px;
+}
+
+.login-des {
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+.login-header {
+  font-size: 30px;
+  color: black;
+  font: bold;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.proceed {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.login-btn {
+  background: #33416a;
+  border-radius: 8px;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  display: block;
+  height: 40px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.or-login {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.user-btn {
+  background: #fd8d00;
+  border-radius: 8px;
+  width: 90%;
+  height: 40px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  margin: 0px auto 30px auto;
+}
+
+.app-support {
+  text-align: center;
+  color: white;
+}
+
+.app-support-no {
+  color: #fd8d00;
+}
+
+.bottom-border {
+  background: #33416a;
+  padding-top: 30px;
+}

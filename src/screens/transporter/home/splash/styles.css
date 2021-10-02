@@ -1,0 +1,47 @@
+.max-screen {
+  max-width: 500px;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+}
+
+.loading {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 44% auto 0 auto;
+}
+.progress {
+  width: 100%;
+}
+
+.loading-text {
+  text-align: center;
+}
+
+.expand {
+  background-color: #33416a;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+.copy {
+  margin-top: 10px;
+  color: #cdcdcd;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+}
+
+.bottom-label {
+  max-width: 500px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

@@ -1,0 +1,466 @@
+@media (max-width: 500px) {
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .img_logo {
+    width: 60vw;
+  }
+  .top-nav-container {
+    width: 50vw;
+    margin-left: 50px;
+  }
+
+  .company_container {
+    background-color: #33416a;
+    color: white;
+    width: 95vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+
+  .company_logo-2 {
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+
+  .rating_container {
+    display: flex;
+    height: 12px;
+    margin: 1px;
+  }
+
+  .company_name {
+    color: white;
+    font-size: medium;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  .company_info_container {
+    margin-right: auto;
+  }
+
+  .trip_titles {
+    display: flex;
+    margin-top: 10px;
+    margin: 12px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .trip_status {
+    color: #36446c;
+    line-height: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+
+  .sec_title {
+    letter-spacing: 1px;
+  }
+
+  .trip_description {
+    line-height: 35px;
+  }
+  .trip_description span {
+    color: #fe9103;
+  }
+
+  .view_all {
+    color: #fe9103;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .status_container {
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+  }
+
+  .status_title {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .upcoming_numbers {
+    color: #037edd;
+  }
+
+  .active_numbers {
+    color: #46f2ce;
+  }
+
+  .delivered_numbers {
+    color: #03c05d;
+  }
+
+  .sec_quicklinks {
+    width: 90vw;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .quick_links {
+    color: #fe9103;
+    line-height: 5px;
+    margin: 15px;
+    font-weight: 500;
+  }
+  .link_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  .link_container img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .lst {
+    height: 35px;
+    width: 35px;
+    /* background-color: red; */
+  }
+
+  .link_title {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: lighter;
+  }
+
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: minmax(150px, auto); */
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 15px;
+  }
+
+  .grid_item {
+    /* padding: 10px; */
+    background-color: pink;
+    border-radius: 10px;
+    /* height: 125px; */
+    width: 170px;
+  }
+
+  .info_icon {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 1px;
+    /* margin-left: 50px; */
+  }
+
+  .info_title {
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+    width: 10px;
+  }
+
+  .info_num {
+    padding-right: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .info_subtitle {
+    margin-top: -25px;
+    padding-left: 10px;
+    color: black;
+  }
+
+  .flex_container {
+    margin-top: -10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 150px;
+    padding-left: 10px;
+  }
+
+  .business_enquiry {
+    background-color: #fff6ef;
+    color: #fe8d31;
+  }
+
+  .revenue {
+    color: #0fd0a9;
+    background-color: #eafffb;
+  }
+
+  .drivers_available {
+    color: #33416a;
+    background-color: #ecfaff;
+  }
+
+  .vehicle_available {
+    color: #ce33a3;
+    background-color: #ffedf9;
+  }
+  .line {
+    background-color: rgba(0, 0, 0, 0.116);
+    height: 60px;
+    width: 1px;
+    content: "";
+    color: rgba(0, 0, 0, 0);
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 500px) {
+  .body_dashboard {
+    overflow-x: hidden;
+    /* margin-left: 20px; */
+  }
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .company_container {
+    background-color: #33416a;
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 30px;
+  }
+
+  .company_logo-2 {
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+
+  .rating_container {
+    display: flex;
+    height: 12px;
+    margin: 1px;
+  }
+
+  .company_name {
+    color: white;
+    font-size: medium;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  .company_info_container {
+    margin-right: auto;
+  }
+
+  .trip_titles {
+    display: flex;
+    margin-top: 10px;
+    margin: 12px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .trip_status {
+    color: #36446c;
+    line-height: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+
+  .sec_title {
+    letter-spacing: 1px;
+  }
+
+  .trip_description {
+    line-height: 35px;
+  }
+  .trip_description span {
+    color: #fe9103;
+  }
+
+  .view_all {
+    color: #fe9103;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .status_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .status_title {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .upcoming_numbers {
+    color: #037edd;
+  }
+
+  .active_numbers {
+    color: #46f2ce;
+  }
+
+  .delivered_numbers {
+    color: #03c05d;
+  }
+
+  .sec_quicklinks {
+    width: 90vw;
+    margin: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    background-color: #fdfdfd;
+    /* column-count: 4; */
+  }
+
+  .quick_links {
+    color: #fe9103;
+    line-height: 5px;
+    margin: 15px;
+    font-weight: 500;
+  }
+  .link_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  .link_container img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .link_title {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: lighter;
+  }
+
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: minmax(150px, auto); */
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 15px;
+    margin-left: 100px;
+  }
+
+  .grid_item {
+    /* padding: 10px; */
+    background-color: pink;
+    border-radius: 10px;
+    /* height: 125px; */
+    width: 170px;
+  }
+
+  .info_icon {
+    height: 25px;
+    width: 25px;
+    margin-left: 50px;
+  }
+
+  .info_title {
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+    width: 10px;
+  }
+
+  .info_num {
+    padding-right: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  .info_subtitle {
+    margin-top: -25px;
+    padding-left: 10px;
+    color: black;
+  }
+
+  .flex_container {
+    margin-top: -10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 150px;
+    padding-left: 10px;
+  }
+
+  .business_enquiry {
+    background-color: #fff6ef;
+    color: #fe8d31;
+  }
+
+  .revenue {
+    color: #0fd0a9;
+    background-color: #eafffb;
+  }
+
+  .drivers_available {
+    color: #33416a;
+    background-color: #ecfaff;
+  }
+
+  .vehicle_available {
+    color: #ce33a3;
+    background-color: #ffedf9;
+  }
+
+  .line {
+    background-color: rgba(0, 0, 0, 0.116);
+    height: 60px;
+    width: 1px;
+    content: "";
+    color: rgba(0, 0, 0, 0);
+  }
+}
